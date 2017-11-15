@@ -14,6 +14,7 @@ This program takes images and plots 3d plot on intensity. This program can be us
 * pip3 install plotly
 
 ## How to use
+Copy your photos with interference into **Interfence-Analysis/images** and then execute next:
 ```bash
 cd Interfence-Analysis/ 
 ./InterferenceAnalysis.py
