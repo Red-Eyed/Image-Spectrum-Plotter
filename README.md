@@ -2,9 +2,9 @@
 This program takes images and plots 3d plot on intensity. This program can be useful for analysing interference image.
 
 ## Prerequiments
-* Ubuntu 
-* python3
-* pip3
+* Ubuntu
+* python3 (```sudo apt install python3```)
+* pip3 (```sudo apt install python3-pip```)
 
 ## Install packages
 * pip3 install pandas
