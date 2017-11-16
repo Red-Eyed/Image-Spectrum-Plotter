@@ -1,0 +1,6 @@
+pandas
+numpy
+xlsxwriter
+opencv-python
+plotly
+

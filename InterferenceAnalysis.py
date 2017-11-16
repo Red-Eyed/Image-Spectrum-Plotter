@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
+import shutil
+
 import numpy as np
 import cv2 as cv
 from plotly.offline import plot
 import plotly.graph_objs as go
-import os
-import shutil
 import pandas as pd
+
+
+print("Script started!")
 
 image_path = os.path.abspath("images")
 plots_path = os.path.abspath("plots")
@@ -51,3 +55,5 @@ for image_name in os.listdir(image_path):
     pd.DataFrame(image).to_excel(excel_writer=excel_writer, sheet_name=image_name)
 
 excel_writer.save()
+
+print("Script finished!")
