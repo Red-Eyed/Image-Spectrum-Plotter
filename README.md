@@ -1,4 +1,5 @@
-# Interfence-Analysis
+# Image-Spectrum-Plotter
+
 This program takes images and plots 3d plot on intensity. This program can be useful for analysing interference image.
 
 ## Prerequiments
@@ -8,13 +9,13 @@ This program takes images and plots 3d plot on intensity. This program can be us
 ## How to use
 Open terminal and do next:
 ```bash
-git clone https://github.com/Vadim-Stupakov/Interfence-Analysis.git
-cd Interfence-Analysis/
+git clone https://github.com/Vadim-Stupakov/Image-Spectrum-Plotter.git
+cd Image-Spectrum-Plotter/
 python3 -m pip install -r requirements.txt
 ```
 
-Copy your photos with interference into **Interfence-Analysis/images** and then execute next:
+Copy your photos with interference into **Image-Spectrum-Plotter/images** and then execute next:
 ```bash
-./InterferenceAnalysis.py
+./ImageSpectrumPlotter.py
 ```
-Then you will observe two folders: **plots/** and **excels/**
+Then you will observe two folders: **plots/**
